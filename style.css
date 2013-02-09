@@ -98,14 +98,14 @@ body {
 /* These styles create the images on the cards. We're using a path to the images
    included in a directory in our game, but you can also use an image that is
    hosted anyhwere on the internet by using its url in the "url()" rule. */
-.ie {background: url(./images/ie.png) no-repeat; background-size: contain;}
-.fx {background: url(./images/fx.png) no-repeat; background-size: contain;}
-.cr {background: url(./images/cr.png) no-repeat; background-size: contain;}
-.sf {background: url(./images/sf.png) no-repeat; background-size: contain;}
-.op {background: url(./images/op.png) no-repeat; background-size: contain;}
-.ns {background: url(./images/ns.png) no-repeat; background-size: contain;}
-.tb {background: url(./images/tb.png) no-repeat; background-size: contain;}
-.fm {background: url(./images/fm.png) no-repeat; background-size: contain;}
+.ie {background: url(http://userserve-ak.last.fm/serve/252/84795015.png)no-repeat; background-size: contain;}
+.fx {background: url(http://images6.fanpop.com/image/photos/32500000/Beyonce-beyonce-32537923-1280-960.jpg) no-repeat; background-size: contain;}
+.cr {background: url(http://static.zerochan.net/Cardcaptor.Sakura.full.931842.jpg) no-repeat; background-size: contain;}
+.sf {background: url(http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/10/10/1349908392328/One-Direction-reach-No-1--008.jpg) no-repeat; background-size: contain;}
+.op {background: url(http://4.bp.blogspot.com/_Hcllhb4ofRU/TGoJjmdhT-I/AAAAAAAAAAc/PDCD7vyMVEE/s1600/Bunny%2BRabbit.jpg) no-repeat; background-size: contain;}
+.ns {background: url(http://guardianexpressla.com/wp-content/uploads/2012/08/monkey.jpeg) no-repeat; background-size: contain;}
+.tb {background: url(http://images2.wikia.nocookie.net/__cb20100608233312/vocaloid/images/4/48/Illu_KEI_Vocaloid_Hatsune_Miku-img4.jpg) no-repeat; background-size: contain;}
+.fm {background: url(http://images.wikia.com/uncyclopedia/images/archive/a/a2/20070831015132!Flying_Pig.jpg) no-repeat; background-size: contain;}
 
 
 /* The .reset class is added to the cards when the game is reset */
