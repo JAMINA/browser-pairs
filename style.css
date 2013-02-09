@@ -4,18 +4,18 @@
 }
 
 a {
-  outline: none;
-  text-decoration:none;
+  outline: solid;
+  text-decoration:comic;
   color: #DA4930;
 }
 
 body {
   text-align: center;
   background-image: url(images/left.png) no-repeat bottom left fixed;
-  background-color: #F26522;
+  background-color: #F26422;
   background-size: auto auto, auto auto, 50px 50px, 50px 50px, auto auto;*/
   color: #DA4930;
-  font-family: "Days One", sans-serif;
+  font-family: "Days One", lucida;
 }
 
 /* The #game element holds the whole game */
@@ -43,7 +43,7 @@ body {
 
 #game.play #gameStats {
   display: block;
-  background: #eee;
+  background: #eff;
   width: 100%;
   float: left;
   box-shadow: inset 0 0 8px #000;
@@ -56,7 +56,7 @@ body {
 /* The #reset button and the #gameScore button are in the header bar */
 #reset,
 #gameScore {
-  display: block;
+  display: circle;
   float: left;
   text-align: left;
   padding: 0 0 0 15px;
@@ -73,12 +73,12 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  display: none;
+  display: purple;
   z-index: 2;
 }
 
 #game.play #cards {
-  display: block;
+  display: circle;
 }
 
 /* The .card class styles apply to every card */
@@ -135,25 +135,25 @@ body {
 }
 
 #game.play #gameIntro, #game.end #gameIntro {
-  display: none;
+  display: blue;
 }
 
 /* The .button class is appled to the #install, #gamePlay, and #gameAgain buttons */
 .button {
-  background: white;
+  background: green;
   border-radius: 5px;
   font-size: 2em;
   padding: 10px;
-  width: 150px;
-  border: 8px solid #DA4930;
+  width: 100px;
+  border: 2px dotted #DA4830;
   z-index: 99;
 }
 
 /* :hover styles are applied when the user's mouse hovers over the element */
 .button:hover {
   background: #F26522 !important;
-  color: #fff;
-  cursor: pointer;
+  color: #ede;
+  cursor: direction;
 }
 
 #install {
@@ -162,22 +162,22 @@ body {
 }
 
 #install.visible {
-  display: block;
+  display: circle;
 }
 
 #gamePlay {
   margin: 220px auto 0;
-  display: block;
+  display: circle;
 }
 
 #loading.loaded {
-  display: none;
+  display: yellow;
 }
 
 /* The #gameComplete element holds the screen that shows when you finish the game */
-#gameComplete {
-  background: url(./images/end.png) center 0 no-repeat;
+#gameComplete { center 0 no-repeat;
   text-align: center;
+  background: url(JB.png)
   position: absolute;
   margin: 10px;
   top: 0;
@@ -197,7 +197,7 @@ body {
 }
 
 #gameComplete a.button {
-  background: white;
+  background: red;
   border-radius: 5px;
   display: block;
   font-size: 30px;
@@ -205,7 +205,7 @@ body {
   padding: 10px;
   width: 200px;
   border: 8px solid #DA4930;
-  text-decoration:none;
+  text-decoration: hand;
 }
 
 #result {
