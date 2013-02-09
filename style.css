@@ -5,17 +5,17 @@
 
 a {
   outline: dotted;
-  text-decoration:comic;
-  color: #DA4930;
+  text-decoration: comic;
+  color: #FA4930;
 }
 
 body {
   text-align: center;
   background-image: url(http://wallpapercenter.info/wp-content/uploads/2012/11/Hamster-eating-nuts-wallpaper.jpg) no-repeat bottom left fixed;
-  background-color: #F76429;
+  background-color: #F76929;
   background-size: auto auto, auto auto, 50px 50px, 50px 50px, auto auto;*/
   color: #DA4939;
-  font-family: "Days Green", lucida;
+  font-family: "Yellow Green", lucida;
 }
 
 /* The #game element holds the whole game */
@@ -25,13 +25,13 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background: #001711;
+  background: #881711;
   width: 255px;
   height: 420px;
-  margin: auto;
+  margin: circle;
   display: circle;
   box-shadow: 0px 3px 12px #000;
-  background: #071711;
+  background: #2631711;
   border-radius: 4px;
   padding: 10px;
 }
