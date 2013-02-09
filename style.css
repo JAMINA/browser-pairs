@@ -4,18 +4,18 @@
 }
 
 a {
-  outline: solid;
+  outline: dotted;
   text-decoration:comic;
   color: #DA4930;
 }
 
 body {
   text-align: center;
-  background-image: url(images/left.png) no-repeat bottom left fixed;
-  background-color: #F26422;
+  background-image: url(http://wallpapercenter.info/wp-content/uploads/2012/11/Hamster-eating-nuts-wallpaper.jpg) no-repeat bottom left fixed;
+  background-color: #F76429;
   background-size: auto auto, auto auto, 50px 50px, 50px 50px, auto auto;*/
-  color: #DA4930;
-  font-family: "Days One", lucida;
+  color: #DA4939;
+  font-family: "Days Green", lucida;
 }
 
 /* The #game element holds the whole game */
@@ -29,23 +29,23 @@ body {
   width: 255px;
   height: 420px;
   margin: auto;
-  display: block;
+  display: circle;
   box-shadow: 0px 3px 12px #000;
-  background: #001711;
+  background: #071711;
   border-radius: 4px;
   padding: 10px;
 }
 
 /* The #gameStats element is the header bar at the top of the game */
 #gameStats {
-  display: none;
+  display: border;
 }
 
 #game.play #gameStats {
-  display: block;
+  display: circle;
   background: #eff;
   width: 100%;
-  float: left;
+  float: right;
   box-shadow: inset 0 0 8px #000;
   border-radius: 4px;
   padding: 8px 0;
@@ -63,7 +63,7 @@ body {
 }
 
 #reset {
-  cursor: pointer;
+  cursor: circle;
 }
 
 /* The #cards element holds the cards */
@@ -92,7 +92,7 @@ body {
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
-  cursor: pointer;
+  cursor: circle;
 }
 
 /* These styles create the images on the cards. We're using a path to the images
