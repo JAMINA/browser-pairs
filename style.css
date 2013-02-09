@@ -99,12 +99,12 @@ body {
    included in a directory in our game, but you can also use an image that is
    hosted anyhwere on the internet by using its url in the "url()" rule. */
 .ie {background: url(http://userserve-ak.last.fm/serve/252/84795015.png)no-repeat; background-size: contain;}
-.fx {background: url(http://images6.fanpop.com/image/photos/32500000/Beyonce-beyonce-32537923-1280-960.jpg) no-repeat; background-size: contain;}
-.cr {background: url(http://static.zerochan.net/Cardcaptor.Sakura.full.931842.jpg) no-repeat; background-size: contain;}
+.fx {background: url(http://www.usmagazine.com/uploads/assets/articles/56672-beyonce-quits-a-star-is-born-remake/1349875816_beyonce-lg.jpg) no-repeat; background-size: contain;}
+.cr {background: url(http://static.zerochan.net/Cardcaptor.Sakura.full.577961.jpg) no-repeat; background-size: contain;}
 .sf {background: url(http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/10/10/1349908392328/One-Direction-reach-No-1--008.jpg) no-repeat; background-size: contain;}
-.op {background: url(http://4.bp.blogspot.com/_Hcllhb4ofRU/TGoJjmdhT-I/AAAAAAAAAAc/PDCD7vyMVEE/s1600/Bunny%2BRabbit.jpg) no-repeat; background-size: contain;}
-.ns {background: url(http://guardianexpressla.com/wp-content/uploads/2012/08/monkey.jpeg) no-repeat; background-size: contain;}
-.tb {background: url(http://images2.wikia.nocookie.net/__cb20100608233312/vocaloid/images/4/48/Illu_KEI_Vocaloid_Hatsune_Miku-img4.jpg) no-repeat; background-size: contain;}
+.op {background: url(http://4.bp.blogspot.com/-o5q0MPHT6fY/Tey6e7bxRLI/AAAAAAAAADs/O5Zcjxae7C8/s1600/bunny2.jpg) no-repeat; background-size: contain;}
+.ns {background: url(http://www.inspiremonkey.com/wp-content/uploads/2010/07/Shpunk-Monkey.jpg) no-repeat; background-size: contain;}
+.tb {background: url(http://images1.wikia.nocookie.net/__cb20111102044718/vocaloid/images/5/50/Ofclboxart_cfm_Hatsune_Miku-illu.png) no-repeat; background-size: contain;}
 .fm {background: url(http://images.wikia.com/uncyclopedia/images/archive/a/a2/20070831015132!Flying_Pig.jpg) no-repeat; background-size: contain;}
 
 
